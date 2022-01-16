@@ -4,6 +4,7 @@ import Cocoa
  The strategy pattern is used to create an interchangeable family of algorithms from which the required process is chosen at run-time.
  It's an entry point to composition versus inheritance.
  When you feel that the inheritance hierarchy is not only going downards but also horizontally, you may have to choose composition over inheritance.
+ Use dependency injection into the client to reach max flexibility
  */
 
 protocol FillableStrategy {
